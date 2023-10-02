@@ -108,13 +108,13 @@ Example:
 **`custom_title=This%20is%20a%20title`**
 
 ```md
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=ashutosh00710&custom_title=This%20is%20a%20title&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-activity-graph.vercel.app/graph?username=ashutosh00710&custom_title=This%20is%20a%20title&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 ```
 
 **Example:**
 
 ```md
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=ashutosh00710&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-activity-graph.vercel.app/graph?username=ashutosh00710&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 ```
 
 ## Deploy on your own Heroku instance
@@ -122,7 +122,7 @@ Example:
 The GitHub API only allows limited requests per hour, my activity-graph.herokuapp.com/graph could possibly hit the rate limiter. If you host it on your own Heroku server, then you don't have to worry about anything.
 
 You may use the server used by this project at <https://github-readme-activity-graph.cyclic.app> and pass in your username to access your graph.
-E.g. `https://github-readme-activity-graph.cyclic.app/graph?username=<your_username>`
+E.g. `https://github-activity-graph.vercel.app/graph?username=<your_username>`
 
 However, if there are a large number of requests or if the heroku account being used for the project runs out of dyno hours your graph will not load.
 
